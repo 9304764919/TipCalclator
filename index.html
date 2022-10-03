@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color:white ;">Tip calculator</h1>
+        <hr>
+        <input type="number" id="billamt" placeholder="Enter bill amount"><br>
+        <input type="number" id="rate" placeholder="Enter rate"><br>
+        <p id="tipamt">Tip?</p> 
+        <p id="tot">Total?</p> 
+        <button type="submit" class="calc" onclick="Calculatetip()">Calculate</button><br>
+        <button type="submit" class="ref" onclick="refresh()">Refresh</button>
+    </div>
+    <script src="calc.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(black,blue);
+    background:black;
+}
+
+.container{
+    background-image: linear-gradient(orange,white,green);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    /* border: 2px solid black; */
+    font-size: 20px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+input{
+    margin: 5px 0;
+    padding: 2px ;
+    font-size: 20px;
+    color: azure;
+
+}
+button{
+    padding: 2px;
+    font-size: 15px;
+    width: 90%;
+    margin: 5px 0;
+    border-radius: 10px;
+
+
+}
+.calc{
+    background-color: wheat;
+    color: black;
+
+}
+.ref{
+    background-color: lightgreen;
+    color: black;
+}
+.calc:hover{
+    background-color: black;
+    color: aqua;
+}
+.ref:hover{
+    background-color: black;
+    color: blueviolet;
+}
+#tipamt{
+    color: white;
+}
+#tot{
+    color: wheat;
+}
